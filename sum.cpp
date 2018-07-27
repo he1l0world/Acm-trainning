@@ -6,7 +6,6 @@
  ************************************************************************/
 
 #include<iostream>
-#include<iomanip>
 using namespace std;
 int main ()
 {
@@ -14,6 +13,7 @@ int main ()
     while(cin >> n )
     {
         cout << (0+n)*(n+1)/2 << endl;
+        cout<<endl;
     }
     return 0;
 }
